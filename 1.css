@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  html {
+    font-size: 12px;
+  }
+  
+ 
+  
+  .bg-image {
+    background-image: url(elon_background.jpg);
+    height: 500vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #first-div {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .text-styling {
+    
+    font-display: horizontal;
+    font-size: 6rem;
+    border: 1px solid #70b0d7;
+    text-transform: uppercase;
+    text-align: center;
+    /word-wrap: break-word;
+    width: 5%;
+    padding: 20px;
+    color: rgb(27, 8, 8);
+    opacity: 0.8;
+    margin: auto 10%;
+    text-align: center;
+  }
+  
+  
+  
+  #second-div {
+    background-color: #7f71a7;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  #second-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25vh;
+  }
+  
+  #albert-quote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #second-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 500px;
+    margin-right: 6%;
+  }
+  
+  
+  #Albert-einstein-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+  }
+  
+  
+  
+  #third-div {
+    background-color: #3f3838;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  
+ 
+  
+  #author-text {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.6vh;
+  }
